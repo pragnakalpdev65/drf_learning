@@ -47,7 +47,6 @@ class TaskViewSet(viewsets.ModelViewSet):
                 }
             }
             response.data = custom_response_data
-
         return response
 
 class AuthorViewSet(viewsets.ModelViewSet):
