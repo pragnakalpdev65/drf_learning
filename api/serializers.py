@@ -24,7 +24,6 @@ class AuthorSerializer(serializers.ModelSerializer):
         model=Author
         fields=['name','bio','email']
 
-
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model=Product
